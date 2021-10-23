@@ -15,5 +15,5 @@ int main()
     int IleKawalkow = KawalkiPizzy / Uczestnicy;
 
     cout << Uczestnicy << " uczestnikow otrzyma po " << IleKawalkow << " kawalkow" << endl;
-    cout << "Dla gospodarza pozostanie " << IleKawalkow % Uczestnicy << " kawalkow" << endl;
+    cout << "Dla gospodarza pozostanie " << KawalkiPizzy % Uczestnicy << " kawalkow" << endl;
 }
